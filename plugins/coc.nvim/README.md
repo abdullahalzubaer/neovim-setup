@@ -33,7 +33,13 @@ Step 8: In your neovim run the following command for python 3.X (for other langu
   ```
   :CocInstall coc-pyright
   ```
-  
+
+Step 8.1: Add this to your vimrc for pointing where python is
+```
+let g:python3_host_prog = "LOCATION_OF_PYTHON"
+ ``` 
+(check my vimrc for my setup regarding this)
+
 Step 9: Enjoy autcompletion for python
 
 ---
