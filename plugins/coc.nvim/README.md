@@ -28,10 +28,10 @@ Step 7: Required for all the suggestions that I was looking for so anxiously.. i
   pip install jedi 
   ```
 
-Step 8: In your neovim run the following command for python (for other language look at this link please https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
+Step 8: In your neovim run the following command for python 3.X (for other language look at this link please https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
 
   ```
-  :CocInstall coc-python
+  :CocInstall coc-pyright
   ```
   
 Step 9: Enjoy autcompletion for python
