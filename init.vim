@@ -14,34 +14,43 @@ set smarttab
 set expandtab
 set softtabstop=4
 set autoindent
+set encoding=UTF-8
 "for working with python end
 
-call plug#begin()
+" set laststatus=0
 
+syntax on
+" set spellfile = "C:\\Program Files\\Neovim\\Neovim\\share\\nvim\\runtime\\spell\\en.utf-8.spl"
+" spell spelllang=en_us
+" set spell
+
+
+call plug#begin()
 Plug 'morhetz/gruvbox'
 Plug 'Raimondi/delimitMate' " ()
 Plug 'vim-syntastic/syntastic'
 Plug 'preservim/nerdtree' "folder structure
 Plug 'tpope/vim-commentary' "for commenting gcc gc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Plug 'dense-analysis/ale' " For linters make it owrk later
+Plug 'dense-analysis/ale' " it worked ! -> displayByAle enable (by setting true) this in schema.json in coc.nvim
 call plug#end()
 
 colorscheme gruvbox
-syntax on
-
-" let g:ale_linters = {'python': ['flake8']}
-" let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace'], 'python': ['black']}
-" let g:ale_fix_on_save = 1
-
+"Need this fo pointing where python is that I am using or else shows some
+"error in checkhealth
 let g:python3_host_prog = "C:\\Users\\gadhamanob\\Anaconda3\\python.exe"
+
+
+let g:ale_linters = {'python': ['flake8']}
+let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace'], 'python': ['black']}
+let g:ale_fix_on_save = 1
 
 
 " for splitting the termial and opening it at the bottom - KEY MAP "TE" - the
 " command needs to be always in capital letter
 " https://github.com/neovim/neovim/issues/5073
 set splitbelow
-command! -nargs=* TR split | resize 10 | terminal <args> 
+command! -nargs=* TR split | resize 10 | terminal <args>
 
 
 
