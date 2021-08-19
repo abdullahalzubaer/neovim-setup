@@ -36,22 +36,34 @@ Plug 'dense-analysis/ale' " it worked ! -> displayByAle enable (by setting true)
 call plug#end()
 
 colorscheme gruvbox
+set background=dark
 "Need this fo pointing where python is that I am using or else shows some
 "error in checkhealth
 let g:python3_host_prog = "C:\\Users\\gadhamanob\\Anaconda3\\python.exe"
 
 
 let g:ale_linters = {'python': ['flake8']}
-let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace'], 'python': ['black']}
+"isort for sorting the import statements on save also ;)
+let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace'], 'python': ['black', 'isort']}
 let g:ale_fix_on_save = 1
 
 
-" for splitting the termial and opening it at the bottom - KEY MAP "TE" - the
+" set ruler
+set clipboard=unnamed
+
+
+
+" for splitting the termial and opening it at the bottom - KEY MAP "TR" - the
 " command needs to be always in capital letter
 " https://github.com/neovim/neovim/issues/5073
 set splitbelow
+
+
+" Some remaps... "
+"------------------------------"
+" For opening terminal
 command! -nargs=* TR split | resize 10 | terminal <args>
-
-
-
-" set ruler
+" For openeing NERDTree
+nnoremap <C-n> :NERDTree<CR>
+" For exiting terminal
+tnoremap <Esc> <C-\><C-n>
