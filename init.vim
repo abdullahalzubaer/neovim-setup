@@ -134,6 +134,8 @@ let g:lightline = {
 " Tomorrow_Night
 " Tomorrow_Night_Bright
 
+"Below-> Removing those stupid linters (saying I am doing everything wrong)
+let g:syntastic_mode_map = {"mode": "passive"} "https://stackoverflow.com/questions/63234882/how-to-disable-linting-in-vim-no-its-not-ale
 
 
 " Some remaps... "
