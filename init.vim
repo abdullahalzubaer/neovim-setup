@@ -12,6 +12,7 @@ set splitbelow splitright
 set clipboard=unnamed
 set noshowmode
 set backspace=indent,eol,start
+set colorcolumn=79 " For setting that vertical line...
 
 "for working with Python start
 "https://WWW.vex.net/~x/python_and_vim.html
@@ -59,7 +60,7 @@ Plug 'vim-python/python-syntax'
 " conflicts with something - dont use it)
 " Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' } " better syntax highlightl (didnot like it..)
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
-
+" Plug 'https://github.com/terryma/vim-multiple-cursors' " should be for multiple curosr but need to look into more later to make it work
 
 call plug#end()
 
@@ -137,7 +138,7 @@ let g:lightline = {
 "Below-> Removing those stupid linters (saying I am doing everything wrong)
 let g:syntastic_mode_map = {"mode": "passive"} "https://stackoverflow.com/questions/63234882/how-to-disable-linting-in-vim-no-its-not-ale
 
-
+" let g:syntastic_python_flake8_args='--ignore=E501'
 " Some remaps... "
 "------------------------------"
 
@@ -172,3 +173,10 @@ inoremap <C-e> <C-o>de
 
 " Undo previous edit (in normal mode)
 nnoremap <C-z> u
+
+" Awesome! Can compile python file by just pressing f9
+" https://stackoverflow.com/a/18948530/12946268
+" Has other solutions:https: //stackoverflow.com/questions/18948491/running-python-code-in-vim
+" Related thing in reddit: https://www.reddit.com/r/neovim/comments/gcxprs/compile_and_run_inside_vim/
+autocmd FileType python map <buffer> <F10> :w<CR>:exec '!python' shellescape(@%, 1)<CR>
+autocmd FileType python imap <buffer> <F10> <esc>:w<CR>:exec '!python' shellescape(@%, 1)<CR>
