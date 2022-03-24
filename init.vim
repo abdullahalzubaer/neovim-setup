@@ -2,8 +2,9 @@
 let g:mapleader = "<Space>"
 set relativenumber
 set nu rnu
+set guicursor=
 set mouse=a
-set scrolloff=5 "keep five lines
+set scrolloff=8 "keep five lines
 filetype on
 syntax on
 set autochdir "Automatically change directory
@@ -13,6 +14,7 @@ set clipboard=unnamed
 set noshowmode
 set backspace=indent,eol,start
 set colorcolumn=79 " For setting that vertical line...
+set nohlsearch " remove the highlights after searchis done
 
 "for working with Python start
 "https://WWW.vex.net/~x/python_and_vim.html
@@ -81,7 +83,7 @@ call plug#end()
 "
 "  Winner? oceanicnext and gruvbox (so far) and two hybrid and hybrid_material
 "  Current winner -> hybrid_material (really cool)
-let g:gruvbox_contrast_dark  = 'hard' "hard, medium, soft
+" let g:gruvbox_contrast_dark  = 'soft' "hard, medium, soft
 " colorscheme gruvbox
 
 set background=dark
@@ -113,7 +115,11 @@ let g:python3_host_prog = "C:\\Users\\gadhamanob\\Anaconda3\\python.exe"
 let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace'], 'python': ['black', 'isort']}
 let g:ale_fix_on_save = 1 " formate after save
 
-
+" Damn I did it at last! no longer that E501 error for longer lines..
+" its a milestone :D
+" This below will disable it
+" https://github.com/dense-analysis/ale/issues/2674
+let g:ale_python_flake8_options = '--ignore=E501'
 
 " This is for the lightline
 let g:lightline = {
