@@ -16,3 +16,5 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 |`:source %`| To source... make anything effective without closing nvim but by just writing this command|
 |`v` highlight the portion of text then `y` yank then coppy paste it to other place `[visual mode] shift+p` | Copy Paste |
 |`nvim -o filename_1 filename_2 ... filename_n`|Open multiple files directly on vertical/horizontal split from terminal, small letter 'o' for vertical, capital letter 'O' for horizontal|
+|`:qa`| quit all open splits and exit neovim|
+|`:only`|close all windows(splits) except the current one|
