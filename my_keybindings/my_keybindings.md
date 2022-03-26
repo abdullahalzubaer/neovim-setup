@@ -15,3 +15,4 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 |`a` or `i`| From visual to insert mode `a` -> cursor goes to next charachter, `i` cursor goes to current where the cursos is now| 
 |`:source %`| To source... make anything effective without closing nvim but by just writing this command|
 |`v` highlight the portion of text then `y` yank then coppy paste it to other place `[visual mode] shift+p` | Copy Paste |
+|`nvim -o filename_1 filename_2 ... filename_n`|Open multiple files directly on vertical/horizontal split from terminal, small letter 'o' for vertical, capital letter 'O' for horizontal|
