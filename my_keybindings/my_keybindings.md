@@ -18,3 +18,10 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 |`nvim -o filename_1 filename_2 ... filename_n`|Open multiple files directly on vertical/horizontal split from terminal, small letter 'o' for vertical, capital letter 'O' for horizontal|
 |`:qa`| quit all open splits and exit neovim|
 |`:only`|close all windows(splits) except the current one|
+
+
+## Combination of comamnds
+
+How to get multiple cursor
+
+Normal Mode -> Shift+arrow to highlight the word you are looking for -> when you found the ones that you want to change -> press a or i , to go to the insert mode.
