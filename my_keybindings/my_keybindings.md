@@ -25,5 +25,5 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 
 How to get multiple cursor -> [Link](https://github.com/mg979/vim-visual-multi)
 
-Normal Mode -> Shift+arrow to highlight the word you are looking for -> when you found the ones that you want to change -> press a or i , to go to the insert mode.
+Normal Mode -> Shift+arrow to highlight the word you are looking for -> when you found the ones that you want to change by pressing `n` to go forward, and `N` to go backword> press a or i , to go to the insert mode.
 
