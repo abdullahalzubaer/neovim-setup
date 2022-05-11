@@ -19,6 +19,7 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 |`:qa`| quit all open splits and exit neovim|
 |`:only`|close all windows(splits) except the current one|
 |`x` in Normal Mode| Equivalent to delete single charachter and more|
+|`o` in Normal Mode| Will creae a new line on the next line and go to insert mode - you can start writing.|
 
 
 ## Combination of comamnds
