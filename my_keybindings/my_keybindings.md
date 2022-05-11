@@ -21,6 +21,9 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 |`x` in Normal Mode| Equivalent to delete single charachter and more|
 |`o` in Normal Mode| Will creae a new line on the next line and go to insert mode - you can start writing.|
 |`shift+o` i.e. Capital O alphabet in Normal Mode| Will creae a new line on the previous line and go to insert mode - you can start writing.|
+|`shift+5` i.e. `%` |To jump to the matchin bracket/brace|
+|`shift+.` i.e. `>`in visual mode | After selecting block of code in visual mode move the block of code to the right with proper indentation I think I had 4 spaces, check my vimrc|
+|`shift+,` i.e. `<`in visual mode | After selecting block of code in visual mode move the block of code to the left with proper indentation I think I had 4 spaces, check my vimrc|
 
 
 ## Combination of comamnds
