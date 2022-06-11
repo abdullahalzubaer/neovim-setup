@@ -18,3 +18,17 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 |`nvim -o filename_1 filename_2 ... filename_n`|Open multiple files directly on vertical/horizontal split from terminal, small letter 'o' for vertical, capital letter 'O' for horizontal|
 |`:qa`| quit all open splits and exit neovim|
 |`:only`|close all windows(splits) except the current one|
+|`x` in Normal Mode| Equivalent to delete single charachter and more|
+|`o` in Normal Mode| Will creae a new line on the next line and go to insert mode - you can start writing.|
+|`shift+o` i.e. Capital O alphabet in Normal Mode| Will creae a new line on the previous line and go to insert mode - you can start writing.|
+|`shift+5` i.e. `%` |To jump to the matchin bracket/brace|
+|`shift+.` i.e. `>`in visual mode | After selecting block of code in visual mode move the block of code to the right with proper indentation I think I had 4 spaces, check my vimrc|
+|`shift+,` i.e. `<`in visual mode | After selecting block of code in visual mode move the block of code to the left with proper indentation I think I had 4 spaces, check my vimrc|
+
+
+## Combination of comamnds
+
+How to get multiple cursor -> [Link](https://github.com/mg979/vim-visual-multi)
+
+Normal Mode -> Shift+arrow to highlight the word you are looking for -> when you found the ones that you want to change by pressing `n` to go forward, and `N` to go backword> press a or i , to go to the insert mode.
+
