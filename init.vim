@@ -29,20 +29,25 @@ set encoding=UTF-8
 "for working with python end
 
 
+" Autocorrect for text
+" --------------------
+
 " setting auto correct globaly
 " https://github.com/sedm0784/vim-you-autocorrect/blob/master/doc/vim-you-autocorrect.text
-" augroup ILoveCorrections
+
+"augroup ILoveCorrections
     " autocmd!
     " autocmd BufEnter * EnableAutocorrect
 " augroup END
+
+
 " Setting autocorrect mode locally in command
 " :DisableAutocorrect
 " :EnableAutocorrect
 
-
 " set spellfile = "C:\\Program Files\\Neovim\\Neovim\\share\\nvim\\runtime\\spell\\en.utf-8.spell"
 " spell spelllang=en_us
-
+" ---------------------
 
 
 call plug#begin()
@@ -63,6 +68,7 @@ Plug 'vim-python/python-syntax'
 " Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' } " better syntax highlightl (didnot like it..)
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 " Plug 'https://github.com/terryma/vim-multiple-cursors' " should be for multiple curosr but need to look into more later to make it work
+Plug 'mg979/vim-visual-multi', {'branch': 'master'} "It is supposed to do the muiltiple cursor thing that I love
 
 call plug#end()
 
@@ -89,7 +95,7 @@ call plug#end()
 set background=dark
 colorscheme hybrid_material
 " let g:hybrid_transparent_background = 1
-" let g:enable_bold_font = 1
+let g:enable_bold_font = 1
 
 
 "hybrid_material provids very light lie numbering, that is why I added this one so that I can see the number ! ;)
