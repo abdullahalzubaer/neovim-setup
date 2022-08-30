@@ -24,7 +24,8 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 |`shift+5` i.e. `%` |To jump to the matchin bracket/brace|
 |`shift+.` i.e. `>`in visual mode | After selecting block of code in visual mode move the block of code to the right with proper indentation I think I had 4 spaces, check my vimrc|
 |`shift+,` i.e. `<`in visual mode | After selecting block of code in visual mode move the block of code to the left with proper indentation I think I had 4 spaces, check my vimrc|
-|`ctrl + o + o`| create and go to new line with the cursor from the current place where the cursor is (life is strange)| |
+|`ctrl + o + o`| create and go to new line with the cursor from the current place where the cursor is (life is strange)| 
+|`:TR`| open terminal:|
 
 
 ## Combination of comamnds
