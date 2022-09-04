@@ -26,7 +26,7 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 |`shift+,` i.e. `<`in visual mode | After selecting block of code in visual mode move the block of code to the left with proper indentation I think I had 4 spaces, check my vimrc|
 |`ctrl + o + o`| create and go to new line with the cursor from the current place where the cursor is (life is strange)| 
 |`:TR`| open terminal:|
-
+|`d+i+w | c+i+2`| [visual mode] Delete the current word and remain in visual mode, delte the current word and go to insert mode - Does not matter where the curosr is as long as it is in any part of the word |
 
 ## Combination of comamnds
 
