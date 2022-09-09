@@ -28,6 +28,7 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 |`:TR`| open terminal:|
 |`d+i+w -- c+i+2`| [visual mode] Delete the current word and remain in visual mode, delte the current word and go to insert mode - Does not matter where the curosr is as long as it is in any part of the word |
 |`shift+} -- shift + {` [visual mode]| cursor goes down -- and cursor goes up (based on blank lines) |
+|`shift+4 -- shift + 6` | end of line -- begining of line|
 
 ## Combination of comamnds
 
