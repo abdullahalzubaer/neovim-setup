@@ -32,6 +32,8 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 
 ## how to search
 
+[Link](https://stackoverflow.com/questions/458915/searching-word-in-vim)
+
 ```
 /anyword -> press enter -> press "n" if you wanna go to the next word, press "N" if you wanna go backward -> press escape to remove highlights when you found the word
 ```
