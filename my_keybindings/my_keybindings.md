@@ -30,6 +30,12 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 |`shift+} -- shift + {` [visual mode]| cursor goes down -- and cursor goes up (based on blank lines) |
 |`shift+4 -- shift + 6` | end of line -- begining of line|
 
+## how to search
+
+```
+/anyword -> press enter -> press "n" if you wanna go to the next word, press "N" if you wanna go backward -> press escape to remove highlights when you found the word
+```
+
 ## Combination of comamnds
 
 How to get multiple cursor -> [Link](https://github.com/mg979/vim-visual-multi)
