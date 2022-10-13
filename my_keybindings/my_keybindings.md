@@ -30,6 +30,7 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 |`shift+} -- shift + {` [visual mode]| cursor goes down -- and cursor goes up (based on blank lines) |
 |`shift+4 -- shift + 6` | end of line -- begining of line|
 |`shift+a -- shift + i` |from visual mode to end of line from any place on that line where the curosr is -- the poosite|
+|`u`| undo previous thing (like ctrl+z in windows)|
 
 ## how to search
 
