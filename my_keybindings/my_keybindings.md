@@ -42,7 +42,8 @@ I am afraid that one day I will forget all the keybindings I had. That is why it
 
 ## Combination of comamnds
 
-How to get multiple cursor -> [Link](https://github.com/mg979/vim-visual-multi)
+### How to get multiple cursor -> [Link](https://github.com/mg979/vim-visual-multi)
 
-Normal Mode -> Shift+arrow to highlight the word you are looking for -> when you found the ones that you want to change by pressing `n` to go forward, and `N` to go backword> press a or i , to go to the insert mode.
+> Normal Mode -> Shift+arrow to highlight the word you are looking for -> when you found the ones that you want to change by pressing `n` to go forward, and `N` to go backword> press a or i , to go to the insert mode
+> Or follow this [You don’t need more than one cursor in vim](https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db)
 
