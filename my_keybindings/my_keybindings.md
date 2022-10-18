@@ -31,6 +31,7 @@ I am afraid that one day I will forget all the keybindings I had and the one tha
 |`shift+4 -- shift + 6` | end of line -- begining of line|
 |`shift+a -- shift + i` |from visual mode to end of line from any place on that line where the curosr is -- the poosite|
 |`u`| undo previous thing (like ctrl+z in windows)|
+|`ctrl+h`|Delte one charachter before|
 
 ## how to search
 
