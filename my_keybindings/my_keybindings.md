@@ -32,6 +32,10 @@ I am afraid that one day I will forget all the keybindings I had and the one tha
 |`shift+a -- shift + i` |from visual mode to end of line from any place on that line where the curosr is -- the poosite|
 |`u`| undo previous thing (like ctrl+z in windows)|
 |`ctrl+h`|Delte one charachter before|
+|`kJ`|Get rid of all the spaces in a specific line so it wil join on the previous line [Link](https://stackoverflow.com/a/26908890/12946268)|
+|[Interesting stuff](https://stackoverflow.com/questions/1373841/vim-deleting-backward-tricks)| interesting Stuff as it says|
+
+
 
 ## how to search
 
