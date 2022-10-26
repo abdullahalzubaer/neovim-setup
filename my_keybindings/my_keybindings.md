@@ -36,6 +36,7 @@ I am afraid that one day I will forget all the keybindings I had and the one tha
 |[Interesting stuff](https://stackoverflow.com/questions/1373841/vim-deleting-backward-tricks)| interesting Stuff as it says|
 |`shift+3`| In visual mode: when the cursor is under a word if you press that then all the occurance of that word will be highligted|
 |`n ; shift+n`|in vusal mode after highlighting all occurance move to previous highlighted word; move to next highlighted word|
+|`shift+GA`|in visual mode: go to the end of the file and start typing in insert mode|
 
 
 
