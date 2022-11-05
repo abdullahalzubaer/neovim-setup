@@ -37,6 +37,7 @@ I am afraid that one day I will forget all the keybindings I had and the one tha
 |`shift+3`| In visual mode: when the cursor is under a word if you press that then all the occurance of that word will be highligted|
 |`n ; shift+n`|in vusal mode after highlighting all occurance move to previous highlighted word; move to next highlighted word|
 |`shift+ga OR shift+g + o`|in visual mode: go to the end of the file and start typing in insert mode - almost same thing but insert in new line|
+|`shift+8`| in visual mode: when you are on a top of a word when you press this then all the occurance of that word will appear to you on the current file|
 
 
 
