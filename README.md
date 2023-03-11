@@ -61,7 +61,8 @@ Uninstall extension from Coc:
 
 "To uninstall an extension, type ":CocList extensions" and then press TAB key and there it will prompt you to choose "u" and uninstall the extension you selected": https://github.com/neoclide/coc.nvim/issues/1311#issuecomment-817917315
 
+You do not need to restart neovim you can just do this 
 
-
+`:source%`
 
 
