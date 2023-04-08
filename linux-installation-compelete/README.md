@@ -1,9 +1,12 @@
 # Welcome to the real world
-prerequisite
 
 Machine I am using
 
 `OS Name: Ubuntu 22.04.2 LTS | OS Type: 64-bit | GNOME Version: 42.5 | Windows System: Wayland`
+
+Prerequisite
+
+Assumption: You just have a fresh installed Ubuntu.
 
 do it in conda base environment. In base I think we already have curl
 
